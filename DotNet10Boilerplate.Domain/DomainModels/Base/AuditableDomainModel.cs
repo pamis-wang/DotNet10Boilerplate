@@ -1,9 +1,7 @@
-﻿using DotNet10Boilerplate.Domain.DomainContracts.Base;
-
-namespace DotNet10Boilerplate.Domain.DomainModels.Base;
+﻿namespace DotNet10Boilerplate.Domain.DomainModels.Base;
 
 /// <summary> 基礎審計領域模型，包含共用的時間戳記和操作人員欄位 </summary>
-public abstract class AuditableDomainModel : IAuditableDomainModel
+public abstract class AuditableDomainModel 
 {
     /// <summary> 新增時間 </summary>
     public DateTimeOffset? CreatedAt { get; set; }

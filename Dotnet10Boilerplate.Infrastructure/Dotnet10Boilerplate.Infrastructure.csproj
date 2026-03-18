@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="4.0.19" />
+    <PackageReference Include="AWSSDK.SimpleEmailV2" Version="4.0.12.2" />
+    <PackageReference Include="AWSSDK.SimpleNotificationService" Version="4.0.2.19" />
+    <PackageReference Include="MailKit" Version="4.15.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.5" />
+    <PackageReference Include="Microting.EntityFrameworkCore.MySql.Json.Microsoft" Version="10.0.5" />
+    <PackageReference Include="Minio" Version="7.0.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.1" />
+    <PackageReference Include="Oracle.EntityFrameworkCore" Version="10.23.26100" />
+    <PackageReference Include="RazorLight" Version="2.3.1" />
+    <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
+    <PackageReference Include="SSH.NET" Version="2025.1.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.12.1" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNet10Boilerplate.Domain\DotNet10Boilerplate.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
