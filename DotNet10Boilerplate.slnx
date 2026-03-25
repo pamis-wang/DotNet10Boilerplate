@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
   <Project Path="DotNet10Boilerplate.Domain/DotNet10Boilerplate.Domain.csproj" />
   <Project Path="Dotnet10Boilerplate.Infrastructure/Dotnet10Boilerplate.Infrastructure.csproj" Id="368b3c36-bea9-4d64-9e85-b189e388fc51" />
 </Solution>
